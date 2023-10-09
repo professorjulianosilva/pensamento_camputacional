@@ -31,14 +31,20 @@ nav li{
     margin-left: 15px;
 }
 
-nav a{
-    text-transform: uppercase;
-    color: black;
-    font-size: 30px;
-    text-decoration: none;
+nav a:hover{
+    transition: 0.2s;
+    color:#473e3b;
+    text-decoration: underline;
 }
 
-
+nav a {
+    text-transform: uppercase;
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+/*fim do header*/   
 
 .titulo-principal{
     color:rgb(129, 119, 139);
