@@ -22,12 +22,12 @@
 
 .produtos li:hover h2{
     transition: 0.5s;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .produtos li:hover .produtos-preco{
     transition: 0.5s;
-    font-size:35px;
+    font-size:25px;
 }
 
 .produtos li:active{
@@ -42,12 +42,12 @@
 
 .produtos-descricao{
     text-align: justify;
-    font-size: 22px;
+    
 }
 
 .produtos-preco{
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
 }
