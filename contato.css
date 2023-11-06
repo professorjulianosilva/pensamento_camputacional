@@ -1,6 +1,7 @@
 form{
     width: 940px;
     margin: 0 auto;
+    padding: 10px 10px 10px 10px;
 }
 
 form p {
@@ -40,7 +41,7 @@ select{
 .enviar{
     width: 40%;
     padding: 15px 0;
-    background-image: url(bg.jpg);
+    background-image:url(bg.jpg);
     color:white;
     font-weight: bold;
     font-size: 18px;
@@ -50,3 +51,8 @@ select{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.enviar:hover {
+    transition: 0.5s;
+    background-image: url(logo-branco.png);
+    transform: scale(1.1);
+}
